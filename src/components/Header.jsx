@@ -6,7 +6,7 @@ const Header = () => {
     <div id='header-container'>
       <img className='logo' src='/content/logo.svg' alt='Manage Logo' />
       <Navbar />
-      <Button text='Get Started' />
+      <Button style='shadow' text='Get Started' />
     </div>
   );
 };

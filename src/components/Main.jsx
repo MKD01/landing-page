@@ -11,7 +11,7 @@ const Main = () => {
         <div className='section-left'>
           <h1>{section1.heading}</h1>
           <p className='main-p space-below'>{section1.body}</p>
-          <Button text='Get Started' />
+          <Button style='shadow' text='Get Started' />
         </div>
 
         <div className='section-right'>
@@ -46,6 +46,8 @@ const Main = () => {
         <h2 id='main-section-bottom-header'>{section3.heading}</h2>
 
         <CustomCarousel items={section3.cards} />
+
+        <Button style='shadow' text='Get Started' />
       </section>
     </div>
   );

@@ -1,0 +1,16 @@
+{
+  "sectionTop": {
+    "heading": "Simplify how your team works today."
+  },
+  "sectionBottom": {
+    "middle": {
+      "leftColumn": ["Home", "Pricing", "Products", "About Us"],
+      "rightColumn": ["Careers", "Community", "Privacy Policy"]
+    },
+    "right": {
+      "buttonText": "go",
+      "inputText": "Updates in your inbox...",
+      "copyRightText": "Copyright 2020. All Rights Reserved"
+    }
+  }
+}

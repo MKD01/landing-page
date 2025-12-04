@@ -24,13 +24,21 @@
 .orange-background {
   background: hsl(12, 88%, 59%);
   border-radius: 2rem;
-  padding: 0.5rem 1rem;
   color: white;
 }
 
-.custom-button {
-  padding: 0.8rem 1.2rem;
+.button-shadow {
   box-shadow: 0 5px 10px 2px #fcc2b7;
+}
+
+.white-background {
+  background: white;
+  border-radius: 2rem;
+  color: hsl(12, 88%, 59%);
+}
+
+.custom-button {
+  padding: 0.5rem 1.2rem;
   max-width: fit-content;
 }
 
@@ -159,4 +167,59 @@
 .carousel-items {
   display: flex;
   width: 100%;
+}
+
+#footer-container {
+}
+
+#footer-top {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2.5rem 8rem;
+  background-color: #f3603c;
+  background-image: url("/background/bg-simplify-section-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 100%;
+}
+
+#top-footer-heading {
+  max-width: 20rem;
+}
+
+#footer-bottom {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 3rem 8rem;
+  gap: 1rem;
+  background: #1e1f28;
+}
+
+#footer-navigation {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+.footer-navigation-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#footer-input {
+  padding: 0.5rem 1.2rem;
+  border-radius: 2rem;
+  margin-right: 1rem;
+}
+
+#footer-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
