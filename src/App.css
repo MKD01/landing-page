@@ -197,6 +197,7 @@
   padding: 3rem 8rem;
   gap: 1rem;
   background: #1e1f28;
+  height: 15rem;
 }
 
 #footer-navigation {
@@ -222,4 +223,9 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
+  height: 100%;
+}
+
+#footer-form {
+  height: 100%;
 }

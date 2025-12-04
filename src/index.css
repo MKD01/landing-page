@@ -63,3 +63,7 @@ button:hover {
 a {
   cursor: pointer;
 }
+
+a:hover {
+  color: hsl(12, 88%, 59%) !important;
+}
