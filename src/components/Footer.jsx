@@ -15,7 +15,35 @@ const Footer = () => {
             src='/content/logo-white.svg'
             alt='Manage Logo'
           />
+          <div id='footer-icon-container'>
+            <img
+              className='icon'
+              src='/icons/icon-facebook.svg'
+              alt='Manage Logo'
+            />
+            <img
+              className='icon'
+              src='/icons/icon-youtube.svg'
+              alt='Manage Logo'
+            />
+            <img
+              className='icon'
+              src='/icons/icon-twitter.svg'
+              alt='Manage Logo'
+            />
+            <img
+              className='icon'
+              src='/icons/icon-pinterest.svg'
+              alt='Manage Logo'
+            />
+            <img
+              className='icon'
+              src='/icons/icon-instagram.svg'
+              alt='Manage Logo'
+            />
+          </div>
         </div>
+
         <div id='footer-navigation'>
           <ul className='footer-navigation-list'>
             {sectionBottom.middle.leftColumn.map((text) => (
@@ -33,6 +61,7 @@ const Footer = () => {
             ))}
           </ul>
         </div>
+
         <div id='footer-form'>
           <div id='footer-right'>
             <div>
