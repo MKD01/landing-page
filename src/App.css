@@ -101,6 +101,10 @@
   gap: 2rem;
 }
 
+.list-num {
+  padding: 0.3rem 1.3rem;
+}
+
 .main-li {
   display: flex;
   align-items: start;
@@ -112,7 +116,6 @@
   flex-direction: column;
   text-align: left;
   gap: 1rem;
-  margin-top: 0.4rem;
 }
 
 #main-section-bottom {
@@ -217,7 +220,8 @@
 
 .icon:hover {
   margin-bottom: 1.5rem;
-  fill: hsl(12, 88%, 59%);
+  fill: hsl(12, 88%, 59%) !important;
+  stroke: hsl(12, 88%, 59%) !important;
 }
 
 #footer-navigation {

@@ -1,5 +1,14 @@
+import { useState } from "react";
 import { sectionTop, sectionBottom } from "../content/footer.json";
 import Button from "./Button";
+
+const defaultIcons = [
+  "facebook",
+  "youtube",
+  "twitter",
+  "pinterest",
+  "instagram",
+];
 
 const Footer = () => {
   return (
@@ -16,46 +25,29 @@ const Footer = () => {
             alt='Manage Logo'
           />
           <div id='footer-icon-container'>
-            <img
-              className='icon'
-              src='/icons/icon-facebook.svg'
-              alt='Manage Logo'
-            />
-            <img
-              className='icon'
-              src='/icons/icon-youtube.svg'
-              alt='Manage Logo'
-            />
-            <img
-              className='icon'
-              src='/icons/icon-twitter.svg'
-              alt='Manage Logo'
-            />
-            <img
-              className='icon'
-              src='/icons/icon-pinterest.svg'
-              alt='Manage Logo'
-            />
-            <img
-              className='icon'
-              src='/icons/icon-instagram.svg'
-              alt='Manage Logo'
-            />
+            {defaultIcons.map((iconName) => (
+              <img
+                key={iconName}
+                className='icon'
+                src={`/icons/icon-${iconName}.svg`}
+                alt={`${iconName} Icon`}
+              />
+            ))}
           </div>
         </div>
 
         <div id='footer-navigation'>
           <ul className='footer-navigation-list'>
-            {sectionBottom.middle.leftColumn.map((text) => (
-              <li>
+            {sectionBottom.middle.leftColumn.map((text, i) => (
+              <li key={i}>
                 <a>{text}</a>
               </li>
             ))}
           </ul>
 
           <ul className='footer-navigation-list'>
-            {sectionBottom.middle.rightColumn.map((text) => (
-              <li>
+            {sectionBottom.middle.rightColumn.map((text, i) => (
+              <li key={i}>
                 <a>{text}</a>
               </li>
             ))}
